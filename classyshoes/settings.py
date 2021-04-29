@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'shoes.apps.ShoesConfig', # shoes application 
+    'cars.apps.CarsConfig', # car application
     'pages.apps.PagesConfig', # pages application
     'django.contrib.admin',
     'django.contrib.auth',
