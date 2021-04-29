@@ -4,6 +4,8 @@ from django.utils.html import format_html
 
 # Register your models here.
 
+admin.site.site_header = 'Classy Shoes Lifestyle Dashboard'
+
 # class to display columns on admin page
 class TeamAdmin(admin.ModelAdmin):
     def thumbnail(self,object):
